@@ -195,14 +195,12 @@ class VHACD_OT_VHACD(Operator):
             from os import path
             for i in range(0, self.maxConvexHull):
                 bpy.ops.wm.obj_import(filepath=data_path + "\\" + filename + ("%03d" % i) + ".obj")
-
             #bpy.ops.import_scene.obj(filepath=get_last_generated_file_path())
-            imported = bpy.context.selected_objects
-            new_objects.extend(imported)
+                new_objects.extend(bpy.context.selected_objects)
 
 
             name_template = prefs.name_template
-            for index, hull in enumerate(imported):
+            for index, hull in enumerate(new_objects):
                 hull.select_set(False)
                 name = name_template.replace('?', ob.name, 1)
                 name = name.replace('#', str(index + 1), 1)
