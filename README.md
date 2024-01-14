@@ -2,7 +2,7 @@
 Blender 4.02 conversion of Phymec's add-on that enables the use of V-HACD for quick and accurate convex decomposition of arbitrary meshes inside Blender. It uses the [V-HACD algorithm](https://github.com/kmammou/v-hacd), developed by Khaled Mammou.
 
 ## Installation
-__Note:__ This add-on requires [Blender 3.5](https://builder.blender.org) and the [V-HACD](https://github.com/kmammou/v-hacd) executable to work. Before installing the add-on, make sure you have a copy of V-HACD installed somewhere on your computer. You will only need a single file (testVHACD.exe) for this add-on to work.
+__Note:__ This add-on requires [Blender 4.02](https://builder.blender.org) and the [V-HACD](https://github.com/kmammou/v-hacd) executable to work. Before installing the add-on, make sure you have a copy of V-HACD installed somewhere on your computer. You will only need a single file (testVHACD.exe) for this add-on to work.
 
 1. Download the add-on [here](https://github.com/maxiriton/blender_vhacd/releases).
 2. In Blender, open the Preferences window (Edit>Preferences) and select the Add-ons tab.
