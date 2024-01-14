@@ -18,13 +18,13 @@
 
 bl_info = {
     "name": "V-HACD for Blender",
-    "author": "Alain Ducharme, Andrew Palmer, Terence Dickson, Henri Hebeisen",
-    "version": (0, 5),
-    "blender": (3, 4, 1),
+    "author": "Alain Ducharme, Andrew Palmer, Terence Dickson, Henri Hebeisen, Hatsuna Miku",
+    "version": (0, 6),
+    "blender": (3, 6, 0),
     "location": "3D View > Object Menu",
     "description": "Link Between V-HACD and Blender",
     'wiki_url': 'https://github.com/kmammou/v-hacd',
-    "tracker_url": "https://github.com/maxiriton/blender_vhacd/issues",
+    "tracker_url": "https://github.com/Hatsuna-Miku/blender_vhacd/issues",
     "category": "3D View",
     }
 
